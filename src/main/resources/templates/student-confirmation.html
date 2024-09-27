@@ -28,7 +28,10 @@ Favorite Operating Systems:
 
 <br><br>
 
-Favorite Animal: <span th:text="${student.favoriteAnimal}" />
+Favorite Animal:
+<ul>
+    <li th:each="tempAnimal : ${student.favoriteAnimal}" th:text="${tempAnimal}" />
+</ul>
 
 <br><br>
 
