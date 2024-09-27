@@ -9,9 +9,18 @@ public class Student {
     private String country;
     private String favoriteLanguage;
     private List<String> favoriteSystems;
+    private List<String> favoriteAnimal;
 
     public Student() {
 
+    }
+
+    public List<String> getFavoriteAnimal() {
+        return favoriteAnimal;
+    }
+
+    public void setFavoriteAnimal(List<String> favoriteAnimal) {
+        this.favoriteAnimal = favoriteAnimal;
     }
 
     public String getFirstName() {
